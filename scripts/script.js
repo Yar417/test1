@@ -1,5 +1,4 @@
-import { ChatWindow } from './chatWindow.js';
-
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
+  const { ChatWindow } = await import('https://yar417.github.io/test1/scripts/chatWindow.js');
   new ChatWindow();
 });
