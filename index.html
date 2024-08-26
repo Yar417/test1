@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body>
+	<div class="container " style="background: silver;">
+		<div class="row"><!--  создание ряда -->
+			<div class="col-6"> <!-- создание столбца, коорый занимает половину эерана  -->
+				row 1 col 1 (col-6)
+			</div>
+			<div class="col-4" style="background:red"> <!-- создание столбца (100-50%)/2 = ширина-->
+				row 1 col 2 (col-4)
+			</div>
+			<div class="col-2" style="background: yellow;"> <!-- создание столбца -->
+				row 1 col 3 (col-2)
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xl-6 col-mb-10"> 
+				row 2 col 1
+			</div>
+			<div class="col-xl-6 col-mb-2 ">
+				row 2 col 2
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-10" style="background:red;"> <!-- создание столбца -->
+				row 3 col 1 (col-10)
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12" style="background:red;"> <!-- создание столбца -->
+				row 4 col 1 (col-12)
+			</div>
+		</div>
+
+	</div>
+	<br>
+	<br>
+	<h1>Hello</h1>
+	<p>Lorem ipsum dolor sit, amet consectetur <mark>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, aspernatur.</mark>adipisicing elit. Voluptates, ab maxime sunt nesciunt esse officiis in adipisci sapiente doloribus quaerat, consequuntur enim nulla distinctio vero facere incidunt beatae recusandae, voluptate.</p>
+
+	<pre class="border">function some():
+		var x=0
+		return x
+		функция 
+	</pre>
+	<code>
+		код
+		var x=0
+	</code>
+
+	<kbd> Cntrl + S ввод с клавиатуры</kbd>
+
+	<br>
+	<br>
+	<br> 
+	<table class="table table-dark">
+		<thead class='table-light'>
+			<tr>
+				<th>#</th>
+				<th>Имя</th>
+				<th>Age</th>
+			</tr>
+		</thead>
+		<tbody class = 'table-group-divider'>
+			<tr class="table-info">
+				<th>1</th>
+				<td>Poh</td> 
+				<td>3</td>
+			</tr>
+			<tr>
+				<th class="table-info">2</th>
+				<td class='table-danger'>Ann</td>
+				<td>27</td>
+			</tr>
+			<tr>
+				<th class="">3-й человек</th>
+				<td>Yar</td>
+				<td>29</td>
+			</tr>
+			<tr>
+				<th>4</th>
+				<td>Jhon</td>
+				<td>35</td>
+			</tr>
+			<tr>
+				<th>5</th>
+				<td>Igor</td>
+				<td>60</td>
+			</tr>
+		</tbody>
+	</table>	
+
+	<button class="btn btn-link">Привет</button>
+
+	<br>
+	<br>
+	<br>
+	<div class="col-4 mx-5 border px-2 rounded-3 bg-info">
+		<form type="text main-form" >
+			<div class="form-group">
+				<label for="name">Имя</label>
+				<input type="text" name="name" class="form-control">
+				<small class="form-text text-muted"> подсказка для поля выше</small>
+			</div>
+			<div class="form-group">
+				<label for="pass">Password</label>
+				<input type="password" name="pass" class="form-control">
+			</div>
+
+			<div class="form-group">
+				<label for="email">Email</label>
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text">@</span>
+					</div>
+					<input type="email" name="email" class="form-control">
+					<div class="input-group-append">
+						<button type="button" class="btn btn-outline-success"> Нажми на меня </button>
+					</div>
+				</div>
+			</div>
+
+			<div class="form-group form-check">
+				<input type="checkbox" name="check-box " class="form-check-input">
+				<label for="check-box" class="form-check-lable">Галочка</label>
+			</div>
+			<div class="form-group"> <!-- относится к группе -->
+				<label>Выбрать из списка</label> <!-- пояснение -->
+				<select class='form-control form-control-sm'> <!-- селектор тоже с Bootstr -->
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<!-- выбор будет происходить из пунктов выше -->
+
+				</select>
+			</div>
+			<div class="mb-3">
+				<label for="formFile" class="form-label">Default file input example</label>
+				<input class="form-control form-control-sm" type="file" id="formFile">
+			</div>
+
+			<div class="form-group form-check form-check-inline">
+				<input type="radio" name="sex" class="form-check-input"> <!-- - redio -->
+				<label for="check-box" class="form-check-lable">Женский</label> <!-- - надпись после галочки -->
+			</div>
+			<div class="form-group form-check form-check-inline">
+				<input type="radio" name="sex" class="form-check-input"> <!-- - radio -->
+				<label for="check-box" class="form-check-lable">Мужской</label>
+			</div>
+			<div class="form-group form-check form-switch">
+				<input type="checkbox" name="check-box" id="id-11" class="form-check-input">
+				<label for="id-11" class="form-check-lable">Переключатель 1</label>
+
+			</div>
+
+			<div class="form-group form-check form-switch">
+				<input disabled type="checkbox" name="check-box" id="id-11" class="form-check-input">
+				<label for="id-11" class="form-check-lable">Переключатель 2 (неактивен)</label>
+			</div>
+			<hr>
+			<button type="button" class="btn btn-success mb-2">Готово</button>
+		</form>
+	</div>
+
+	<br>
+	<br>
+	<br>
+	<div class="block border-primary border rounded-5" style="width: 100px;height: 100px;background: white; margin: 20px; "></div>
+
+	<span class="d-inline"> Привет</span>
+	<span class="d-block"> Привет</span>
+	<div class="d-inline-block">Привет в строку</div>
+	<div class="d-inline-block">Привет в строку</div>
+
+	<div class="block bg-primary d-none d-md-block" style="width: 100px;height: 100px;background: white; margin: 20px;"></div>
+
+	<br>
+	<br>
+	<br>
+	<div class="box m-5" style="width: 500px;">
+		<div class="alert alert-info">
+			<h4 class="alert-heading">Что-то на португальском</h4>
+			<hr>
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, in debitis nihil tempore a aliquam optio nemo, enim ipsa laboriosam similique <a href="*" class="alert-link"> something here</a> minima quidem voluptas praesentium ratione maxime doloremque ipsum modi?
+		</div>
+	</div>
+
+	<div class="box " style="width: 500px;">
+		<h1>hello <span class="badge rounded-pill text-bg-primary">123</span></h1>
+
+		<h2>hello <span class="badge-bg-primary">123</span></h2>
+		<h3>hello <span class="badge text-bg-success">123</span></h3>
+	</div>
+
+	<hr>
+	<div class="container mt-5">
+
+
+	<nav class="bg-dark p-3 mb-3">
+		<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a href="111.html">Главная страница</a></li>
+			<li class="breadcrumb-item"><a href="9">Все статьи</a></li>
+			<li class="breadcrumb-item active">Статьи</li>
+		</ol>
+	</nav>
+
+	<div class="bg-secondary p-5">
+		<h4 class="display-2">Hello people</h4>
+		<p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum nam deserunt atque, alias numquam ullam optio delectus voluptates ipsum voluptatibus, inventore? Voluptatibus, quaerat, libero. Tempore recusandae deserunt quod voluptate voluptatum!</p>
+	</div>
+	</div>
+	<div class="jhon mx-3 p-3">
+		<ul class="list-group list-group-flush">
+			<li class="list-group-item active">Элемент №1</li>
+			<li class="list-group-item">Элемент №2</li>
+			<li class="list-group-item">Элемент №3</li>
+			<li class="list-group-item disabled">Элемент №4</li>
+			<li class="list-group-item">Элемент №5</li>
+			<li class="list-group-item">Элемент №6</li>
+		</ul>
+
+		<div class="d-flex mt-5">
+			<div class="border">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, repellat.</div>
+			<div class="border">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere placeat numquam fugiat quia. Ipsa, vero veritatis ipsam necessitatibus quae suscipit optio fuga laudantium assumenda voluptatum qui ab. Soluta, architecto, veritatis!
+			</div>
+			<div class="border">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, similique.</div>
+		</div>
+	</div>
+
+	<div class="card m-5 w-50">
+		<img src="https://itproger.com/img/news/1530279717.jpg" alt="card-img-top">
+		<div class="card-body">
+			<h5 class="card-title">Что-то про что-то</h5>
+			<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea vero, mollitia autem dolores, culpa officiis, dolorum harum perferendis veritatis ullam vitae fuga, libero tempora. Quo tempora eum nisi fugit non.</p>
+		</div>
+		<ul class="list-group list-group-flush">
+			<li class="list-group-item">элемент 1</li>
+			<li class="list-group-item">элемент 2</li>
+			<li class="list-group-item">элемент 3</li>
+			<li class="list-group-item">элемент 4</li>
+		</ul>
+		<div class="card-body">
+			<a href="#" class="card-link">Читать дальше</a>
+		</div>
+		<img src="https://itproger.com/img/news/1530279717.jpg" alt="card-img-bottom">
+	</div>
+
+	<div class="d-flex justify-content-evenly align-items-start">
+		<div class="card m-2 w-50 bg-dark">
+			<img src="https://itproger.com/img/news/1530279717.jpg" alt="card-img-top">
+			<div class="card-body">
+				<h5 class="card-title text-light">Что-то про что-то</h5>
+				<p class="card-text text-light" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea vero, mollitia autem dolores, culpa officiis, dolorum harum perferendis veritatis ullam vitae fuga, libero tempora. Quo tempora eum nisi fugit non.</p>
+			</div>
+
+			<ul class="list-group list-group-flush">
+				<li class="list-group-item bg-dark text-light border-2	">элемент 1</li> 
+				<li class="list-group-item bg-dark text-light border-2">элемент 2</li>
+				<li class="list-group-item bg-dark text-light border-2">элемент 3</li>
+				<li class="list-group-item bg-dark text-light border-light">элемент 4</li>
+			</ul>
+			<div class="card-body">
+				<a href="#" class="card-link">Читать дальше</a>
+			</div>
+			<img src="https://itproger.com/img/news/1530279717.jpg" alt="card-img-bottom">
+		</div>
+		<div class="card m-2 w-25 bg-info border-2 ">
+			<img src="https://itproger.com/img/intensivs/cpp.svg" alt="card-img-top">
+			<div class="card-body">
+				<h5 class="card-title">Что-то про что-то</h5>
+				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea vero, mollitia autem dolores, culpa officiis, dolorum harum perferendis veritatis ullam vitae fuga, libero tempora. Quo tempora eum nisi fugit non.</p>
+			</div>
+			<ul class="list-group list-group-flush">
+				<li class="list-group-item active h4">элемент 1</li>
+				<li class="list-group-item text-center">элемент 2</li>
+				<li class="list-group-item text-end">элемент 3</li>
+				<li class="list-group-item lead">элемент 4</li>
+			</ul>
+			<div class="card-body">
+				<a href="#" class="card-link">Читать дальше</a>
+			</div>
+			<img src="https://itproger.com/img/news/1530279717.jpg" alt="card-img-bottom">
+		</div>
+	</div>
+</body>
+</html> 
+			
