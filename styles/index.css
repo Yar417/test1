@@ -1,0 +1,19 @@
+@import url('minimized.css');
+@import url('expanded.css');
+@import url('variables.css');
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  margin: 0;
+  overflow: hidden;
+  background-image: url('screenshot.png');
+  background-size: cover; /* Покрытие всего экрана */
+    background-position: center; /* Центрирование изображения */
+    background-attachment: fixed; /* Фиксация фона при прокрутке */
+    background-repeat: no-repeat; /* Избежание повторения изображения */
+    overflow: auto;
+}

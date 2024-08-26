@@ -1,0 +1,29 @@
+/* Color Map */
+:root {
+  --background-color: #f0f0f0;
+  --close-button-background: #333;
+  --close-button-hover: #555;
+  --send-button-background: #090604;
+  --send-button-hover: #2b2a28;
+  --microphone-button-background: #fff9;
+  --microphone-button-hover: #fff;
+  --message-background: rgba(0, 0, 0, 0.7);
+  --message-text-color: #ffffff;
+  --system-message-background: rgba(76, 77, 139, 0.7);
+  --system-message-text-color: #ffffff;
+  --scrollbar-thumb-background: rgba(0, 0, 0, 0.2);
+  --scrollbar-track-background: rgba(0, 0, 0, 0.1);
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --input-background-color: rgba(255, 255, 255, 0.6);
+  --history-background-color: rgba(0, 0, 0, 0);
+  --text-color-white: #ffffff;
+  --button-hover-color: #555; /* Default button hover color */
+  --secondary-shades: rgba(43, 42, 40, 1);
+  --text-error-color: #ff0000;
+}
+
+/* Font Map */
+:root {
+  --font-family: 'Roboto, sans-serif';
+  --font-size: 18px;
+}

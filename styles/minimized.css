@@ -1,0 +1,52 @@
+.video-container {
+  /* Positioning */
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+
+  /* Size */
+  width: 200px;
+  height: 200px;
+
+  /* Appearance */
+  overflow: hidden;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+
+  /* Transition */
+  transition: transform 0.3s ease-in-out;
+  animation: appear 1s forwards;
+  animation-play-state: paused;
+}
+
+.video-container:hover {
+  transform: scale(1.1);
+}
+
+.video {
+  /* Size */
+  width: auto;
+  height: 110%;
+
+  /* Positioning */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* Appearance */
+  object-fit: cover;
+}
+
+@keyframes appear {
+  0% {
+    bottom: -200px;
+    opacity: 0;
+  }
+  100% {
+    bottom: 50px;
+    opacity: 1;
+  }
+}
