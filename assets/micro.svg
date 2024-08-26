@@ -1,0 +1,5 @@
+<svg id="microphone-icon" width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'>
+  <path d='M10.4453 11.5556C10.4453 8.48731 12.9326 6 16.0009 6C19.0691 6 21.5564 8.48731 21.5564 11.5556V14.8889C21.5564 17.9571 19.0691 20.4444 16.0009 20.4444C12.9326 20.4444 10.4453 17.9571 10.4453 14.8889V11.5556Z' fill='currentColor' stroke='currentColor' stroke-width='1.66667'/>
+  <path d='M24.8911 13.7812V14.8924C24.8911 19.8016 20.9114 23.7813 16.0022 23.7813C11.093 23.7813 7.11328 19.8016 7.11328 14.8924V13.7812' stroke='currentColor' stroke-width='1.66667' stroke-linecap='round'/>
+  <path d='M16 23.7812V27.1146' stroke='currentColor' stroke-width='1.66667' stroke-linecap='round'/>
+</svg>
