@@ -3,7 +3,7 @@
 document.addEventListener('DOMContentLoaded', async () => {
     // Загружаем зашифрованный ключ из api.json
     try {
-        const response = await fetch("./api.json");
+        const response = await fetch("https://yar417.github.io/test1/api.json");
         const API_DATA = await response.json();
 
         // Расшифровываем ключ
