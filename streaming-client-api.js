@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const decryptedKey = decryptKey(API_DATA.key);
 
         if (decryptedKey === '🤫') {
-            alert('Please put your API key inside ./api.json and restart..');
+            alert('Please put your crypted API key and restart..');
             return;
         }
 
